@@ -6,8 +6,13 @@
 html {
   font-size: 62.5%;
 }
-body {
-  font-family: "Goldman", cursive;
+.first-page {
+  font-family: "goldman";
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
 }
 
 nav {
@@ -20,20 +25,84 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  font-family: "goldman";
 }
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  font-family: "goldman";
 }
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
+  font-family: "goldman";
 }
 nav a {
   color: white;
   text-decoration: none;
+  font-family: "goldman";
 }
 nav img {
   width: 5vw;
+}
+
+  h1 {
+   font-size: 70px;
+   padding-top: 300px;
+   text-align: center;
+
+
+
+}
+
+
+ h2 {
+
+
+font-size: 70px;
+text-align: center;
+
+ }
+ 
+ 
+ 
+      .body-page {
+
+        font-style: "goldman";
+        color: rgb(0, 0, 0);
+    
+
+}
+
+
+.text-style {
+
+padding: 50px;
+font-style: "goldman", sans-serif;
+text-align: center;
+}
+
+ article {
+
+
+  text-align: center;
+  margin-left: 1200px;
+width: 628px;
+width: 628px;
+height: 314px;
+flex-shrink: 0;
+color: #000;
+font-family: Goldman;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 145.455% */
+ }
+
+img {
+
+float:left;
+
+
 }
